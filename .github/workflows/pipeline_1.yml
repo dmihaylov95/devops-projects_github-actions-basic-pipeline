@@ -1,0 +1,8 @@
+name: pipeline-1
+'on': push
+jobs:
+  pipeline-1-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1
+        run: echo "Pipeline 1 executed successfully!"
